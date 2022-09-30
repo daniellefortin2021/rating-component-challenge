@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/67af1d78ee.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./styles.css">
   
   <title>Frontend Mentor | Interactive rating component</title>
 
@@ -16,34 +17,40 @@
 </head>
 <body>
 
-  <!-- Rating state start -->
+  <main>
+    <div class="card">
+      <div class="star">
+       <p class="icon"> <i class="fa-solid fa-star"></i></p>
+      </div>
+      <div class="text">
+        <h1>How did we do?</h1>
+        <p>Please let us know how we did with your support request. All feedback is appreciated 
+          to help us improve our offering!</p>
+      </div>
+      <div class="rating">
+        <p class="number">1</p>
+        <p class="number">2</p>
+        <p class="number">3</p>
+        <p class="number">4</p>
+        <p class="number">5</p>
+      </div>
+      <button>SUBMIT</button>
 
-  How did we do?
 
-  Please let us know how we did with your support request. All feedback is appreciated 
-  to help us improve our offering!
+  <!-- Thank you state start 
 
-  1 2 3 4 5
-
-  Submit
-
-  <!-- Rating state end -->
-
-  <!-- Thank you state start -->
-
-  You selected <!-- Add rating here --> out of 5
+  You selected  out of 5
 
   Thank you!
 
   We appreciate you taking the time to give a rating. If you ever need more support, 
   don’t hesitate to get in touch!
 
-  <!-- Thank you state end -->
+ Thank you state end -->
 
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+
+    </div>
+  </main>
+
 </body>
 </html>
